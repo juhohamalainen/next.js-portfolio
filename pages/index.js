@@ -55,13 +55,8 @@ export default function Home() {
               Frontend developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              Welcome to my portfolio! This is my personal portfolio developed by me.
+              Welcome to my web page!
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillYoutube />
-            </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={juho} layout="fill" objectFit="cover" />
             </div>
@@ -69,136 +64,89 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Services I offer</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">About me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+            Hey! I'm 29 year old Business Information Technology student from Hämeenlinna and I'm just about to graduate in 30.11.2022. I am interested in application and web development and especially Frontend.
+            I am 
+              <span className="text-teal-500"> motivated</span>,
+              <span className="text-teal-500"> team player</span>,
+              <span className="text-teal-500"> self-initiated </span>and
+              <span className="text-teal-500"> willing to develop </span>
+              myself.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
+              I've been working for 5 months as a frontend developer.
             </p>
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <Image src={design} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
-                Beautiful Designs
+                Personality
               </h3>
-              <p className="py-2">
-                Creating elegant designs suited for your needs following core
-                design theory.
+              <p className="py-5">
+                This is who I am:
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Calm</p>
+              <p className="text-gray-800 py-1">Friendly</p>
+              <p className="text-gray-800 py-1">Motivated</p>
+              <p className="text-gray-800 py-1">Self-Initiated</p>
+              <p className="text-gray-800 py-1">Willing to learn</p>
+
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Code your dream project
+                Skills
               </h3>
-              <p className="py-2">
-                Do you have an idea for your next great website? Let's make it a
-                reality.
+              <p className="py-5">
+                Here's some technologies that I've been using:
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">React</p>
+              <p className="text-gray-800 py-1">React Native</p>
+              <p className="text-gray-800 py-1">JavaScript</p>
+              <p className="text-gray-800 py-1">HTML and CSS</p>
+              <p className="text-gray-800 py-1">Java</p>
+              <p className="text-gray-800 py-1">PHP</p>
+              <p className="text-gray-800 py-1">JQuery</p>
+              <p className="text-gray-800 py-1">C#</p>
+              <p className="text-gray-800 py-1">Python</p>
+              <p className="text-gray-800 py-1">MySQL</p>
+              <p className="text-gray-800 py-1">Robot Framework</p>
+              <p className="text-gray-800 py-1">RESTful</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={consulting} width={100} height={100} />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
-              <p className="py-2">
-                Are you interested in feedback for your current project? I can
-                give you tips and tricks to level it up.
+              <h3 className="text-lg font-medium pt-8 pb-2 ">Hobbies</h3>
+              <p className="py-5">
+              Things I like to do in my spare time:
               </p>
-              <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-              <p className="text-gray-800 py-1">Photoshop</p>
-              <p className="text-gray-800 py-1">Illustrator</p>
-              <p className="text-gray-800 py-1">Figma</p>
-              <p className="text-gray-800 py-1">Indesign</p>
+              <p className="text-gray-800 py-1">Play guitar and make music</p>
+              <p className="text-gray-800 py-1">Hit the gym</p>
+              <p className="text-gray-800 py-1">Ride motorcycle</p>
+              <p className="text-gray-800 py-1">Hang out with my spouse, friends and family</p>
             </div>
           </div>
         </section>
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
-            </p>
-          </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web2}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-              />
+            <h3 className="text-3xl py-1 dark:text-white ">Contact me</h3>
+            <p className="text-gray-800 py-1">Juho Hämäläinen</p>
+              <p className="text-gray-800 py-1">Kaivokatu 1 A 3</p>
+              <p className="text-gray-800 py-1">13100</p>
+              <p className="text-gray-800 py-1">Hämeenlinna</p>
+              <p className="text-gray-800 py-1">044 283 3661</p>
+              <p className="text-gray-800 py-1">ji.hamalainen@gmail.com</p>
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <a href="https://www.linkedin.com/in/juho-hamalainen-22b379192/">
+              <AiFillLinkedin />
+            </a>
+            <a href="https://twitter.com/HaemaeOfficial">
+            <AiFillTwitterCircle />
+            </a>
+            <a href="https://www.youtube.com/channel/UCDvaXKc6WQOTYx_vdYPCvEw">
+            <AiFillYoutube />
+            </a>
             </div>
           </div>
         </section>
