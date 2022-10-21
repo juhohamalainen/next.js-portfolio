@@ -40,7 +40,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"
+                  href="https://drive.google.com/file/d/1eqxsxavZ41FNj2sgPeqDWdulpIinY5sd/view?usp=sharing"
                 >
                   Resume
                 </a>
@@ -58,7 +58,7 @@ export default function Home() {
               Welcome to my web page!
             </p>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={juho} layout="fill" objectFit="cover" />
+              <Image src={juho} alt="memoji" layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -80,7 +80,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} />
+              <Image src={design} alt="photo" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Personality
               </h3>
@@ -95,7 +95,7 @@ export default function Home() {
 
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} alt="hashtag" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Skills
               </h3>
@@ -116,7 +116,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">RESTful</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} alt="thumb" width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Hobbies</h3>
               <p className="py-5">
               Things I like to do in my spare time:
@@ -129,14 +129,14 @@ export default function Home() {
           </div>
         </section>
         <section className="py-10">
-          <div>
+          <div >
             <h3 className="text-3xl py-1 dark:text-white ">Contact me</h3>
-            <p className="text-gray-800 py-1">Juho Hämäläinen</p>
-              <p className="text-gray-800 py-1">Kaivokatu 1 A 3</p>
-              <p className="text-gray-800 py-1">13100</p>
-              <p className="text-gray-800 py-1">Hämeenlinna</p>
-              <p className="text-gray-800 py-1">044 283 3661</p>
-              <p className="text-gray-800 py-1">ji.hamalainen@gmail.com</p>
+            <p className="text-gray-800 py-1 dark:text-white">Juho Hämäläinen</p>
+              <p className="text-gray-800 py-1 dark:text-white">Kaivokatu 1 A 3</p>
+              <p className="text-gray-800 py-1 dark:text-white">13100</p>
+              <p className="text-gray-800 py-1 dark:text-white">Hämeenlinna</p>
+              <p className="text-gray-800 py-1 dark:text-white">044 283 3661</p>
+              <p className="text-gray-800 py-1 dark:text-white">ji.hamalainen@gmail.com</p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
             <a href="https://www.linkedin.com/in/juho-hamalainen-22b379192/">
               <AiFillLinkedin />
